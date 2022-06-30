@@ -11,7 +11,7 @@ gem "sprockets-rails"
 
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
-
+gem "pry"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
@@ -70,3 +70,9 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "roo", "~> 2.9"
+
+gem "rubyzip", ">= 1.2.1"
+gem "axlsx", git: "https://github.com/randym/axlsx.git", ref: "c8ac844"
+gem "axlsx_rails"
